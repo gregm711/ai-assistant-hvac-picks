@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "AI assistant picks for HVAC, 2,383 cities"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - name: "Picked by Agents"
+    website: "https://pickedbyagents.com"
+date-released: 2026-10-05
+license: CC-BY-4.0
+url: "https://pickedbyagents.com/hvac"
