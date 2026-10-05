@@ -62,15 +62,15 @@ picks = load_dataset("GregM/ai-assistant-hvac-picks", "picks", split="train")
 
 ## How it was made
 
-For each city an LLM agent with web search played the assistant. It ran one Google Maps search and one web search for the city, as an assistant would, then answered the six questions (furnace repair this week, best company, new system quotes and cost, AC out today, book a tune-up online, upfront pricing; UK versions ask about boilers). It was told to read the candidate companies' own sites before recommending, to rank up to three companies with a one-sentence reason, and to cite the page each reason came from. The `engine` field records the model where the run noted it (mostly Claude Sonnet with web search).
+For each city an LLM agent with web search played the assistant. It ran one Google Maps search and one web search for the city, as an assistant would, then answered the six questions (furnace repair this week, best company, new system quotes and cost, AC out today, book a tune-up online, upfront pricing; UK versions ask about boilers). It was told to read the candidate companies' own sites before recommending, to rank up to three companies with a one-sentence reason, and to cite the page each reason came from. The `engine` field preserves the recorded label. Of 2,383 city records, 945 identify Claude Sonnet, 3 identify GPT-6, and 1,435 use generic assistant labels without a specific model. Three records explicitly note that direct Google Maps access was unavailable. These labels are recorded metadata, not independently verified model identities.
 
 ## Limits, read before citing
 
 - **One run per city, one month.** A city's result is a single answer set, not a rate. Assistants vary run to run.
-- **One kind of assistant.** This is an LLM agent with web search, not the ChatGPT, Gemini or Siri apps. Our monthly [Picks Index](https://pickedbyagents.com/picks) asks several consumer assistants the same questions.
+- **Agent-generated answers.** These are LLM-agent runs with web search, not controlled tests of the ChatGPT, Gemini or Siri apps. Our monthly [Picks Index](https://pickedbyagents.com/picks) asks several consumer assistants the same questions.
 - **The method shapes the sources.** The agent was told to read companies' own sites, so `source_url` is almost always the company's site. Don't read that as how consumer assistants pick sources.
 - **Reasons are the assistant's words**, quoted as given, not verified claims about the companies.
-- Google review counts and ratings are not included.
+- Separate Google review-count and rating fields are excluded. Quoted assistant reasons sometimes mention reviews or ratings; those statements have not been independently verified.
 
 ## License and citation
 
