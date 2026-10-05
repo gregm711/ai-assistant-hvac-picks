@@ -40,8 +40,9 @@ It is published by [Picked by Agents](https://pickedbyagents.com), which tracks 
 - [Hugging Face dataset](https://huggingface.co/datasets/GregM/ai-assistant-hvac-picks)
 - [Kaggle dataset](https://www.kaggle.com/datasets/gregmillerai/ai-assistant-hvac-picks-across-2383-cities)
 - [Zenodo archive and DOI](https://doi.org/10.5281/zenodo.23162848)
+- [Figshare archive and DOI](https://doi.org/10.6084/m9.figshare.34069866)
 
-The Kaggle and Zenodo mirrors preserve the six files published on October 5, 2026 under CC BY 4.0.
+The Kaggle, Zenodo and Figshare mirrors preserve the six files published on October 5, 2026 under CC BY 4.0.
 
 ## Files
 
