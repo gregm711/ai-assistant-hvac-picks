@@ -35,6 +35,14 @@ This dataset records one AI assistant's answers to six heating and cooling quest
 
 It is published by [Picked by Agents](https://pickedbyagents.com), which tracks who AI assistants recommend for local purchases. Every row links to its public page, for example [HVAC city tests](https://pickedbyagents.com/hvac) and the [Picks Index](https://pickedbyagents.com/picks).
 
+## Download and cite
+
+- [Hugging Face dataset](https://huggingface.co/datasets/GregM/ai-assistant-hvac-picks)
+- [Kaggle dataset](https://www.kaggle.com/datasets/gregmillerai/ai-assistant-hvac-picks-across-2383-cities)
+- [Zenodo archive and DOI](https://doi.org/10.5281/zenodo.23162848)
+
+The Kaggle and Zenodo mirrors preserve the six files published on October 5, 2026 under CC BY 4.0.
+
 ## Files
 
 | File | One row per | Columns |
