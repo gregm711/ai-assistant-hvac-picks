@@ -8,3 +8,5 @@ authors:
 date-released: 2026-10-05
 license: CC-BY-4.0
 url: "https://pickedbyagents.com/hvac"
+doi: "10.5281/zenodo.23162848"
+repository-code: "https://github.com/gregm711/ai-assistant-hvac-picks"
