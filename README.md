@@ -72,6 +72,12 @@ For each city an LLM agent with web search played the assistant. It ran one Goog
 - **Reasons are the assistant's words**, quoted as given, not verified claims about the companies.
 - Separate Google review-count and rating fields are excluded. Quoted assistant reasons sometimes mention reviews or ratings; those statements have not been independently verified.
 
+## Related research on Picked by Agents
+
+For worked examples from a separate study of participating consumer assistants, read [How AI assistants pick an HVAC company](https://pickedbyagents.com/reports/how-ai-assistants-pick-hvac). For recorded explanations of businesses being passed over, read [Why AI assistants pass over HVAC contractors](https://pickedbyagents.com/reports/why-ai-passes-hvac-contractors).
+
+These reports use their own stated samples and methods. They are not aggregate findings from this 2,383-city dataset. Each report includes its evidence and limitations.
+
 ## License and citation
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it for anything, with credit and a link:
